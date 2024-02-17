@@ -2,7 +2,9 @@
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
 }
-
+ html {
+     scroll-behavior: smooth;
+ }
 .inter-font{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
