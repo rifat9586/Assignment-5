@@ -2,3 +2,25 @@
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
 }
+.bg_images{
+    background-image: url(./images/banner.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    border-radius: 50px;
+    position: relative;
+}
+.pogition {
+    position: absolute;
+    top: 112px;
+    left: 20%;
+}
+.banner-section{
+    position: relative;
+}
+.pogition-up{
+        position: absolute;
+            left: 55px;
+            bottom: -50px;
+}
