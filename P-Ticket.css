@@ -1,10 +1,10 @@
+ html {
+     scroll-behavior: smooth;
+ }
 .raleway-font{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
 }
- html {
-     scroll-behavior: smooth;
- }
 .inter-font{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -39,4 +39,12 @@
 .absolutettedb{
     position: absolute;
     right: 345px;
+}
+.inputLabel{
+    position: relative;
+}
+.absoluteInput{
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
