@@ -101,16 +101,14 @@ function showPopapPointhidden(){
 let buttons = document.getElementsByClassName("ClickContron");
 let clickedCount = 0;
 
-// প্রতিটি বাটনের উপর ক্লিক ইভেন্ট যোগ করুন
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", function () {
         clickedCount++;
 
         if (clickedCount > 4) {
-            alert("এলার্ট: ৪ টির বেশি বাটন ক্লিক হয়েছে!");
-            // সব বাটনের ক্লিক ইভেন্ট রিমোভ করুন
+            alert("Your all radey 4 ticket buying");
             for (let j = 0; j < buttons.length; j++) {
-                buttons[j].removeEventListener("click", arguments.callee);
+                buttons[j].removeEventListener("click", handleClick);
             }
         }
     });
