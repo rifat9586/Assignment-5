@@ -2,14 +2,6 @@ function seatSet(ElementId){
     const CallToSet = document.getElementById(ElementId);
     CallToSet.classList.add('bg-orange-400');
 }
-// function removeBgClor(){
-//     const element = document.getElementById('Totalprice');
-//     element.classList.add('hidden');
-// }
-// function removeBgClo(){
-//     const element = document.getElementById('Totalprice');
-//     element.classList.remove('hidden',0);
-// }
 
 function cuntSeit(){
     const cuntSet = document.getElementById('cunt');
@@ -65,7 +57,7 @@ for (let index = 0; index < cards.length; index++) {
         const h2 = document.createElement('h2');
         h2.innerText = titl;
         titleContaine.appendChild(h2);
-        document.querySelectorAll(".card").onclick = null;
+        
     });
 }
 
@@ -105,19 +97,21 @@ function showPopapPointhidden(){
     const showOption = document.getElementById('showPopap');
     showOption.classList.add('hidden');
 }
-// function IandBhidden(){
-//     const showOption = document.getElementById('input&button');
-//     showOption.classList.add('hidden');
-// }
 
-// document.getElementById('cleneallamunt').addEventListener('click', function clickliss(){
-//     const inputfiel = document.querySelector('span').value;
-//     console.log(inputfiel)
-//     if (inputfiel > 0){
-//         document.getElementById('input-field').value = ""; 
-//     }
-//     else{
-//         document.getElementById('input-field').value = ""; 
-//     }
-// })
+let buttons = document.getElementsByClassName("ClickContron");
+let clickedCount = 0;
 
+// প্রতিটি বাটনের উপর ক্লিক ইভেন্ট যোগ করুন
+for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", function () {
+        clickedCount++;
+
+        if (clickedCount > 4) {
+            alert("এলার্ট: ৪ টির বেশি বাটন ক্লিক হয়েছে!");
+            // সব বাটনের ক্লিক ইভেন্ট রিমোভ করুন
+            for (let j = 0; j < buttons.length; j++) {
+                buttons[j].removeEventListener("click", arguments.callee);
+            }
+        }
+    });
+}

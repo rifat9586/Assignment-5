@@ -4,7 +4,6 @@ document.getElementById("A1").onclick = function A1() {
     bookOfSeit();
     document.getElementById("A1").onclick = null;
 };
-
 document.getElementById("A2").onclick = function A2(){
     seatSet('A2');
     cuntSeit();
@@ -48,100 +47,206 @@ document.getElementById("B4").onclick = function B4(){
     bookOfSeit();
     document.getElementById("B4").onclick = null;
 }
-
-function C1(){
+document.getElementById("C1").onclick = function C1() {
     seatSet('C1');
-}
-function C2(){
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("C1").onclick = null;
+};
+
+document.getElementById("C2").onclick = function C2(){
     seatSet('C2');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("C2").onclick = null;
 }
-function C3(){
+document.getElementById("C3").onclick = function B3(){
     seatSet('C3');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("C3").onclick = null;
 }
-function C4(){
+document.getElementById("C4").onclick = function C4(){
     seatSet('C4');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("C4").onclick = null;
 }
-function D1(){
+document.getElementById("D1").onclick = function D1() {
     seatSet('D1');
-}
-function D2(){
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("D1").onclick = null;
+};
+
+document.getElementById("D2").onclick = function D2(){
     seatSet('D2');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("D2").onclick = null;
 }
-function D3(){
+document.getElementById("D3").onclick = function D3(){
     seatSet('D3');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("D3").onclick = null;
 }
-function D4(){
+document.getElementById("D4").onclick = function D4(){
     seatSet('D4');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("D4").onclick = null;
 }
-function E1(){
+document.getElementById("E1").onclick = function E1() {
     seatSet('E1');
-}
-function E2(){
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("E1").onclick = null;
+};
+
+document.getElementById("E2").onclick = function E2(){
     seatSet('E2');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("E2").onclick = null;
 }
-function E3(){
+document.getElementById("E3").onclick = function E3(){
     seatSet('E3');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("E3").onclick = null;
 }
-function E4(){
+document.getElementById("E4").onclick = function E4(){
     seatSet('E4');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("E4").onclick = null;
 }
-function F1(){
+document.getElementById("F1").onclick = function F1() {
     seatSet('F1');
-}
-function F2(){
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("F1").onclick = null;
+};
+
+document.getElementById("F2").onclick = function F2(){
     seatSet('F2');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("F2").onclick = null;
 }
-function F3(){
+document.getElementById("F3").onclick = function F3(){
     seatSet('F3');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("F3").onclick = null;
 }
-function F4(){
+document.getElementById("F4").onclick = function F4(){
     seatSet('F4');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("F4").onclick = null;
 }
-function G1(){
+document.getElementById("G1").onclick = function G1() {
     seatSet('G1');
-}
-function G2(){
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("G1").onclick = null;
+};
+
+document.getElementById("G2").onclick = function G2(){
     seatSet('G2');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("G2").onclick = null;
 }
-function G3(){
+document.getElementById("G3").onclick = function G3(){
     seatSet('G3');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("G3").onclick = null;
 }
-function G4(){
+document.getElementById("G4").onclick = function G4(){
     seatSet('G4');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("G4").onclick = null;
 }
-function H1(){
+document.getElementById("H1").onclick = function H1() {
     seatSet('H1');
-}
-function H2(){
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("H1").onclick = null;
+};
+
+document.getElementById("H2").onclick = function H2(){
     seatSet('H2');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("H2").onclick = null;
 }
-function H3(){
+document.getElementById("H3").onclick = function H3(){
     seatSet('H3');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("H3").onclick = null;
 }
-function H4(){
+document.getElementById("H4").onclick = function H4(){
     seatSet('H4');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("H4").onclick = null;
 }
-function I1(){
+document.getElementById("I1").onclick = function I1() {
     seatSet('I1');
-}
-function I2(){
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("I1").onclick = null;
+};
+
+document.getElementById("I2").onclick = function I2(){
     seatSet('I2');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("I2").onclick = null;
 }
-function I3(){
+document.getElementById("I3").onclick = function I3(){
     seatSet('I3');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("I3").onclick = null;
 }
-function I4(){
+document.getElementById("I4").onclick = function I4(){
     seatSet('I4');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("I4").onclick = null;
 }
-function J1(){
+document.getElementById("J1").onclick = function J1() {
     seatSet('J1');
-}
-function J2(){
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("J1").onclick = null;
+};
+
+document.getElementById("J2").onclick = function J2(){
     seatSet('J2');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("J2").onclick = null;
 }
-function J3(){
+document.getElementById("J3").onclick = function J3(){
     seatSet('J3');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("J3").onclick = null;
 }
-function J4(){
+document.getElementById("J4").onclick = function J4(){
     seatSet('J4');
+    cuntSeit();
+    bookOfSeit();
+    document.getElementById("J4").onclick = null;
 }
+    
+
+
