@@ -97,18 +97,27 @@ function showPopapPointhidden(){
     showOption.classList.add('hidden');
 }
 
-let buttons = document.getElementsByClassName("ClickContron");
-let clickedCount = 0;
 
-for (let i = 0; i < buttons.length; i++) {
+var buttons = document.getElementsByClassName("ClickContron");
+var clickedCount = 0;
+
+for (var i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", function () {
-        clickedCount++;
+        if (!this.classList.contains("blocked")) {
+            clickedCount++;
 
-        if (clickedCount > 4) {
-            alert("Your all radey 4 ticket buying");
-            for (let j = 0; j < buttons.length; j++) {
-                buttons[j].removeEventListener("click", handleClick);
+            if (clickedCount >= 4) {
+                alert("Your 3 site buying and 1 add or not site buying !");
+
+                for (var j = 0; j < buttons.length; j++) {
+                    buttons[j].removeEventListener("click", handleClick);
+                    buttons[j].classList.add("blocked");
+                }
             }
         }
     });
+}
+
+function handleClick(event) {
+    console.log("বাটনে ক্লিক হয়েছে");
 }
