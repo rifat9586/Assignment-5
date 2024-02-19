@@ -108,7 +108,7 @@ for (var i = 0; i < buttons.length; i++) {
             clickedCount++;
 
             if (clickedCount >= 4) {
-                alert("Your 3 site buying and 1 add or not site buying !");
+                
 
                 for (var j = 0; j < buttons.length; j++) {
                     buttons[j].removeEventListener("click", handleClick);
