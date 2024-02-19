@@ -84,7 +84,7 @@ btn.addEventListener('click', function () {
     }
     else {
         document.getElementById('input-field').value = "";
-        alert("Your 3 site buying and 1 add or not site buying !");
+        alert("Your submit cupon is not rightff !");
     }
 });
 
