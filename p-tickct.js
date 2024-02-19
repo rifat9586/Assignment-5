@@ -119,5 +119,5 @@ for (var i = 0; i < buttons.length; i++) {
 }
 
 function handleClick(event) {
-    console.log("বাটনে ক্লিক হয়েছে");
+    console.log("Show");
 }
