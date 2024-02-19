@@ -22,7 +22,6 @@ function bookOfSeit(){
     cuntSe.innerText = updatedLif;
 }
 
-
 const cards = document.querySelectorAll('.card');
 let TotlePrice = 0;
 for (let index = 0; index < cards.length; index++) {
